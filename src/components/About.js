@@ -14,7 +14,7 @@ const About = () => {
                 </ul>
             </div>
    
-            <div style={{'display':'flex', 'alignContent':'center', 'margin':'30px 0 0px 0'}}><Link to="./" style={{'textDecoration':'none', 'color':'limegreen'}}><FaChevronLeft /> <i style={{'zoom':'1.5'}}>Go back</i></Link></div>
+            <div style={{'display':'flex', 'alignContent':'center', 'margin':'30px 0 0px 0'}}><Link to="/" style={{'textDecoration':'none', 'color':'limegreen'}}><FaChevronLeft /> <i style={{'zoom':'1.5'}}>Go back</i></Link></div>
         </div>
     )
 }
