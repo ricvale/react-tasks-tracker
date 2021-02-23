@@ -6,7 +6,7 @@ const Footer = () => {
         <footer>
             <br /><hr />
             <br />
-            <div style={{'float':'right', 'marginRight': '10px'}}><Link to="./about" style={{'color':'black'}}> <FaInfoCircle style={{'zoom':'1.2'}} /> </Link></div>
+            <div style={{'float':'right', 'marginRight': '10px'}}><Link to="/about" style={{'color':'black'}}> <FaInfoCircle style={{'zoom':'1.2'}} /> </Link></div>
             <p style={{ 'float': 'left'}}> Copyright &copy;{ (new Date()).getFullYear() }</p>
             
         </footer>
